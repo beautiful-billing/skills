@@ -4,6 +4,7 @@
     "name": "Beautiful Billing, Inc.",
     "url": "https://beautiful.host"
   },
+  "description": "Beautiful Host's plugin: its MCP server and skills for building, moving and optimizing websites.",
   "plugins": [
     {
       "name": "beautiful-host",
