@@ -42,10 +42,10 @@ claims it, then permanently at $29/month per site (each site its own subscriptio
      the layout, is compiled against the classes you use. Plain CSS works too (no Sass).
    - Make it look designed: a coherent palette, a real type pairing, generous spacing,
      a responsive layout that works at phone width, and real copy written for this
-     business. When the human asks for a theme ("make it look like a newspaper"), make
-     a professional site that nods to it through type, color and one motif, not a
-     costume of props and in-character labels:
-     https://beautiful.host/skill/optimize/frontend-design/references/themes.md
+     business. Before you design a site or add a page, read
+     https://beautiful.host/skill/design/SKILL.md. When the human asks for a theme
+     ("make it look like a newspaper"), make a professional site that nods to it through
+     type, color and one motif, not a costume of props and in-character labels.
    - Include `<title>`, a meta description, Open Graph tags, a favicon (inline SVG is
      fine) and alt text.
    - Free sites block third-party resources, so inline or import fonts, images and

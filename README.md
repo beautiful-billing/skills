@@ -1,6 +1,6 @@
 # Beautiful Host skills
 
-Skills that teach an AI agent to build a website on [beautiful.host](https://beautiful.host),
+Skills that teach an AI agent to build and design a website on [beautiful.host](https://beautiful.host),
 move an existing one there, and make any site faster, better in search and AI answers,
 accessible, clearer and better at converting. The list, with what each one does:
 https://beautiful.host/skills.
@@ -10,7 +10,8 @@ https://beautiful.host/skills.
 - Claude Code: `/plugin marketplace add beautiful-billing/skills`, then
   `/plugin install beautiful-host@beautiful`. This adds Beautiful Host's MCP server too.
 - Cursor, Codex and other agents: `npx skills add beautiful-billing/skills`.
-- Any agent that can read a URL: tell it to read https://beautiful.host/skill/optimize/SKILL.md.
+- Any agent that can read a URL: tell it to read https://beautiful.host/skill/design/SKILL.md
+  (designing a site or a page) or https://beautiful.host/skill/optimize/SKILL.md (improving one).
 
 ## Credits
 

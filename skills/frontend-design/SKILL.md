@@ -85,7 +85,7 @@ https://beautiful.host/skill/optimize/NOTICE.md lists._
   skip that step. Everything here works without them.
 - When the human asks for a theme ("make it look like a newspaper", "like a spaceship"), or a
   recipe gives you a design direction, read
-  [references/themes.md](https://beautiful.host/skill/optimize/frontend-design/references/themes.md)
+  [beautiful-design](https://beautiful.host/skill/design/SKILL.md)
   first: professional first, themed second, with the theme carried by type, color and one
   motif, never by props.
 - Fonts are self-hosted WOFF2 in `public/fonts/` (no font CDNs on free sites). Offer the human

@@ -1,8 +1,53 @@
-# Themed, not costumed
+---
+name: beautiful-design
+description: Design a website or a new page that looks professional, not templated or overdone. Use when building a site, picking its look, adding a page, redesigning, or when the human asks for a theme ("make it look like a newspaper", "like a spaceship", "like Paris").
+---
 
-Read this when the human asks for a site that looks like something: "make it look like a
-newspaper", "like a spaceship", "like an old letter", "make it feel like Paris". Also read it
-before you pick a design direction from a recipe.
+# Design a website
+
+Read this before you design a new site, pick its look, add a page, or redesign one, and
+whenever the human asks for a site that looks like something. It works on any site; the steps
+that name Beautiful's tools are for sites on beautiful.host (https://beautiful.host/llms.txt).
+
+## Before you design
+
+1. **Ask three things** if you don't know them: who visits the site, three words for how it
+   should feel, and two or three sites they love the look of (and one they don't). Read the
+   sites they name.
+2. **Offer two or three directions** (four at most), each in two sentences the human can
+   picture, and recommend one. On beautiful.host, build them as `preview_options` so the human
+   compares real pages side by side, and give them the `compare_url`. A temporary site (not
+   claimed yet) can't make options: describe the directions in words, or give the human the
+   `claim_url` first. If they don't answer, build your
+   recommendation and say they can switch.
+3. **Write the direction down** as tokens at the top of the stylesheet: the colors (4 to 6 named
+   values), the two fonts and a type scale, spacing, one radius, one shadow. Every page uses them.
+
+## Adding a page to a site that has a design
+
+A new page belongs to the site it's in. Read the layout, the stylesheet and one or two existing
+pages first, and build the new one from what's there: the same layout, tokens, components,
+buttons and headings. Don't invent new colors, fonts or a new card style for one page. If the
+page truly needs something new (a pricing table, a form), make it from the existing tokens so
+it looks like it was always there.
+
+## The professional floor
+
+Every site, themed or not:
+
+- Body text 17 to 19px in a readable face, lines under about 75 characters, contrast at least
+  4.5:1. One display face and one text face at most.
+- Navigation and buttons in plain words. One primary button style in the accent color, the rest
+  quiet. Buttons at least 44px tall.
+- Generous space. A clear hierarchy on every screen: what this is, the main thing, one next step.
+- Phone first: check every page at 390px wide. Nothing scrolls sideways.
+- Real copy for this business, no lorem ipsum, no invented reviews, no stock photos of people.
+- Small motion only, and none for `prefers-reduced-motion: reduce`.
+
+For a more distinctive look, read
+https://beautiful.host/skill/optimize/frontend-design/SKILL.md as well.
+
+## Themed, not costumed
 
 The human is asking for a feeling, not a prop. They want visitors to sense the newspaper. They
 don't want a fake newspaper. A good designer hears "newspaper" and gives them confident serif
@@ -10,7 +55,7 @@ headlines, a strict column grid and one ruled line. A bad one gives them blackle
 report, an issue number and "Price: one penny". The first looks like a professional's site with
 a point of view. The second looks like a school play.
 
-## Professional first, themed second
+### Professional first, themed second
 
 Build the site a top studio would build for this person, then let the theme season it. Nine
 parts of ten are the same on every good site: clear navigation in plain words, a calm page, one
@@ -28,7 +73,7 @@ Spend the theme on three things, and only these:
 If the site still says "newspaper" with the motif removed, the type and color are doing their
 job. If it only says "newspaper" because of the props, start again.
 
-## Translate, don't reenact
+### Translate, don't reenact
 
 | They ask for | Give them | Leave out |
 | --- | --- | --- |
@@ -40,7 +85,7 @@ job. If it only says "newspaper" because of the props, start again.
 | A recipe box, a kitchen | A warm serif, a soft paper tone, one food color, a card used once for the recipe itself | Tape, gingham, coffee rings, typewriter body text, handwritten notes in every section |
 | A city, a country ("Paris") | Type and color associated with the place (a Didone, a muted palette), real photos if they have them | Eiffel Tower clip art, flags, accordions, fake French in the labels |
 
-## The rules
+### The rules
 
 - **Navigation and buttons use plain words.** "Books", "About", "Events", "Newsletter". Not
   "The Desk", "Dossier", "Parish notices", "Deliver it to me". Visitors must never decode the
@@ -67,7 +112,7 @@ job. If it only says "newspaper" because of the props, start again.
 
 ## Check it before you show it
 
-Look at a screenshot of the home page at desktop and phone width, and ask:
+Look at a screenshot of the home page and every page you added or changed, at desktop and phone width, and ask:
 
 1. **The publisher test.** Would a big publisher, label or agency put this on their client's
    site? Would the human be proud to send it to their agent, their investors, a journalist?
