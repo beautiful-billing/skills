@@ -1,0 +1,11 @@
+{
+  "name": "beautiful-host",
+  "description": "Build, publish and improve websites on beautiful.host: its MCP server, plus skills for building a site, moving one here, and making it faster, better in search and AI answers, accessible and better at converting.",
+  "author": {
+    "name": "Beautiful Billing, Inc.",
+    "url": "https://beautiful.host"
+  },
+  "homepage": "https://beautiful.host/skills",
+  "repository": "https://github.com/beautiful-billing/skills",
+  "license": "MIT"
+}

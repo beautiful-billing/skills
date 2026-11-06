@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "beautiful-host": {
+      "type": "http",
+      "url": "https://beautiful.host/mcp"
+    }
+  }
+}

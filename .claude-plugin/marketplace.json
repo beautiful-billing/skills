@@ -1,0 +1,14 @@
+{
+  "name": "beautiful",
+  "owner": {
+    "name": "Beautiful Billing, Inc.",
+    "url": "https://beautiful.host"
+  },
+  "plugins": [
+    {
+      "name": "beautiful-host",
+      "source": "./",
+      "description": "Beautiful Host's MCP server and website skills."
+    }
+  ]
+}
