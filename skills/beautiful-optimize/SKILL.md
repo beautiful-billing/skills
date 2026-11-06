@@ -24,6 +24,7 @@ it says what Beautiful already does for you and how to measure before and after.
 | Tighten or proofread existing copy | [copy-editing](https://beautiful.host/skill/optimize/copy-editing/SKILL.md) |
 | More signups, sales or bookings from a page or form | [cro](https://beautiful.host/skill/optimize/cro/SKILL.md) |
 | Make it look less generic, a better design | [frontend-design](https://beautiful.host/skill/optimize/frontend-design/SKILL.md) |
+| "Make it look like a newspaper" (any theme), or it looks overdone | [frontend-design/references/themes.md](https://beautiful.host/skill/optimize/frontend-design/references/themes.md) |
 
 Each skill links to its own `references/` files. Fetch one only when the skill says to, from
 the same folder as its SKILL.md.

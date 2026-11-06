@@ -26,5 +26,7 @@ Beyond that:
 - **ai-seo:** removed a sponsored platform mention in `references/agent-readiness.md`, the link
   to the upstream tools registry, and the `npx` commands that ran third-party checkers (their
   websites are still linked).
+- **frontend-design:** added `references/themes.md`, which is ours: how to make a themed site
+  ("make it look like a newspaper") professional first and themed second.
 
 Nothing else in the copied text was changed.

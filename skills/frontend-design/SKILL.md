@@ -83,5 +83,10 @@ https://beautiful.host/skill/optimize/NOTICE.md lists._
   in Astro (a layout in `src/layouts/`, a component, `public/_headers`), or skip it.
 - Where it names another skill, a product-marketing context file or a paid tool you don't have,
   skip that step. Everything here works without them.
+- When the human asks for a theme ("make it look like a newspaper", "like a spaceship"), or a
+  recipe gives you a design direction, read
+  [references/themes.md](https://beautiful.host/skill/optimize/frontend-design/references/themes.md)
+  first: professional first, themed second, with the theme carried by type, color and one
+  motif, never by props.
 - Fonts are self-hosted WOFF2 in `public/fonts/` (no font CDNs on free sites). Offer the human
   2 to 4 directions with `preview_options` before redesigning a site they already have.
